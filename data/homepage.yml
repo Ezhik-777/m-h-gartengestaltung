@@ -8,11 +8,11 @@ showcase:
   title: "M-H Gartengestaltung"
   subtitle: "Gartenpflege / Gebaude, -Hausmeisterservice"
   image:
-    alt: "Showcase keyboard and mouse image"
+    alt: "Bild 1"
     x: "img/showcase/showcase.png"
     _2x: "img/showcase/showcase@2x.png"
   imageMobile:
-    alt: "Showcase keyboard and mouse image"
+    alt: "Bild 1_mobile"
     x: "img/showcase/showcase-mobile.jpg"
 
 # about
