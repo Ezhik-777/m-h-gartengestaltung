@@ -1,0 +1,82 @@
+baseURL = "https://m-h-gartengestaltung.de/"
+languageCode = "de-de"
+theme = "raditian-free-hugo-theme"
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "css/main.css"
+  [[params.plugins.css]]
+  URL = "css/rad-icons.css"
+  [[params.plugins.css]]
+  URL = "css/custom.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "js/rad-animations.js"
+  [[params.plugins.js]]
+  URL = "js/sticky-header.js"
+  [[params.plugins.js]]
+  URL = "js/library/fontfaceobserver.js"
+
+
+# navigation
+[menu]
+
+  [[menu.header]]
+  name = "Über uns"
+  URL = "#about"
+  weight = 2
+
+  [[menu.header]]
+  name = "Leistungen"
+  URL = "#portfolio"
+  weight = 3
+
+  [[menu.header]]
+  name = "Kontakt"
+  URL = "#contact"
+  weight = 4
+
+  [[menu.header]]
+  name = "Impressum"
+  URL = "#impressum"
+  weight = 5
+
+
+  [[menu.footer]]
+  name = "Über uns"
+  URL = "#about"
+  weight = 2
+
+  [[menu.footer]]
+  name = "Leistungen"
+  URL = "#portfolio"
+  weight = 3
+
+  [[menu.footer]]
+  name = "Kontakt"
+  URL = "#contact"
+  weight = 4
+  
+  [[menu.footer]]
+  name = "Impressum"
+  URL = "#impressum"
+  weight = 5
+
+
+[params]
+
+  sections = ["showcase", "about", "education", "experience", "client-and-work", "testimonial", "contact", "newsletter"]
+
+  googleTagManagerID = "GTM-000000" # Google Analytics works with Google Tag Manager
+
+  [params.logo]
+    text1 = "M-H"
+    text2 = "Gartengestaltung"
+
+  [params.footer]
+      copyright = "© M-H Gartengestaltung. Alle Rechte vorbehalten!"
+      [params.footer.radity_logo]
