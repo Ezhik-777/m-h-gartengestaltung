@@ -78,5 +78,5 @@ theme = "raditian-free-hugo-theme"
     text2 = "Gartengestaltung"
 
   [params.footer]
-      copyright = "© M-H Gartengestaltung. Alle Rechte vorbehalten!"
+      copyright = "© M-H Gartengestaltung. Alle Rechte vorbehalten."
       [params.footer.radity_logo]
