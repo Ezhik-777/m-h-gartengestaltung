@@ -20,15 +20,11 @@ about:
   enable: true
   title: "Über uns"
   content: '<p class="lead">
-  Was machen wir?
+  Unser Team ist für den Privatkundenbereich und Unternehmen in Ludwigsburg und Umgebung tätig.
     </p>
     <p class="lead">
-    Gartengestaltung usw.
+    Wir beratuen Sie gerne, lassen Sie sich von unserem Service beeindrucken!
     </p>'
-  button:
-    icon: "icon-smile-fill"
-    btnText: "About Me"
-    URL: "https://www.linkedin.com/company/radity/"
   image:
     x: "img/who-am-i/user-picture.png"
     _2x: "img/who-am-i/user-picture@2x.png"
@@ -49,7 +45,7 @@ education:
 # experience
 experience:
   enable: false
-  title: "Experience"
+  title: "Standorte"
   description: "Over 15+ years of experience working with companies from all over the world. I design & develop digital products to help businesses and improve people's lives."
   button:
     icon: "icon-linkedin-fill"
@@ -90,7 +86,7 @@ client_and_work:
         _2x: "img/works/radity-finance@2x.jpg"
       is_even: true
 
-    - title: "Gartengestaltung"
+    - title: "Terassen- und Wegebau"
       description: "Folgendes wurde gemacht"
       button:
         icon: "icon-arrow-right"
@@ -101,7 +97,7 @@ client_and_work:
         _2x: "img/works/swissfintech@2x.jpg"
       is_even: false
 
-    - title: "Gartengestaltung"
+    - title: "Hofeinfahrt"
       description: "Folgendes wurde gemacht"
       button:
         icon: "icon-arrow-right"
@@ -111,6 +107,17 @@ client_and_work:
         x: "img/works/robo-advisor.jpg"
         _2x: "img/works/robo-advisor@2x.jpg"
       is_even: true
+
+    - title: "Winterdienst"
+      description: "Folgendes wurde gemacht"
+      button:
+        icon: "icon-arrow-right"
+        btnText: "Mehr erfahren"
+        URL: "#"
+      image:
+        x: "img/works/robo-advisor.jpg"
+        _2x: "img/works/robo-advisor@2x.jpg"
+      is_even: false
 
 # testimonial
 testimonial:
